@@ -1,0 +1,5 @@
+#POR FAVOR, ELIMINAR LA PALABRA 'Example' para que se reconozca como un archivo de variables de entorno.
+
+INPUT_DIRECTORY='C:\\TU\\RUTA\\DE\\DIRECTORIO\\DE\\ENTRADA'
+
+OUTPUT_DIRECTORY='C:\\TU\\RUTA\\DE\\DIRECTORIO\\DE\\SALIDA'
