@@ -16,10 +16,21 @@ INPUT_DIRECTORY='C:\\TU\\RUTA\\DE\\DIRECTORIO\\DE\\ENTRADA'
 
 OUTPUT_DIRECTORY='C:\\TU\\RUTA\\DE\\DIRECTORIO\\DE\\SALIDA'
 ```
-Luego abre Powershell o tu terminal favorita e inicia el entorno virtual.
+Luego abre Powershell o tu terminal favorita y crea un entorno virtual.
 
 ```bash
-./Scripts/activate
+python -m env venv
+```
+
+Luego inicia el entorno virtual con:
+
+```bash
+./venv/Scripts/activate
+```
+
+Y cuando estés dentro del entorno virtual utiliza
+```py
+python -m pip install -r requirements.txt
 ```
 Y ejecutar el archivo ***image_converter.py*** ubicado en ***./src/image_converter.py***
 
